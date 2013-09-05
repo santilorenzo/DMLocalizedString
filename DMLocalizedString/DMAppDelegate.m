@@ -7,6 +7,7 @@
 //
 
 #import "DMAppDelegate.h"
+#import "DMLocalizationManager.h"
 
 @implementation DMAppDelegate
 
@@ -15,6 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window setRootViewController:[UIViewController new]];
+    
+    NSLog(@"%@",DMLocalizedString(@"HELLO_WORLD", nil));
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

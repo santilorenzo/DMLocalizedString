@@ -16,6 +16,10 @@
 		94BCC8CB17D8CB1D0087E480 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8CA17D8CB1D0087E480 /* Default.png */; };
 		94BCC8CD17D8CB1D0087E480 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8CC17D8CB1D0087E480 /* Default@2x.png */; };
 		94BCC8CF17D8CB1D0087E480 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8CE17D8CB1D0087E480 /* Default-568h@2x.png */; };
+		94BCC8E017D8CBAD0087E480 /* DMLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BCC8DD17D8CBAD0087E480 /* DMLocalizationManager.m */; };
+		94BCC8E117D8CBAD0087E480 /* Localized_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8DE17D8CBAD0087E480 /* Localized_en.json */; };
+		94BCC8E217D8CBAD0087E480 /* Localized_it.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8DF17D8CBAD0087E480 /* Localized_it.json */; };
+		94BCC8E417D8CC220087E480 /* Localized_fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BCC8E317D8CC220087E480 /* Localized_fr.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		94BCC8CA17D8CB1D0087E480 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		94BCC8CC17D8CB1D0087E480 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		94BCC8CE17D8CB1D0087E480 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94BCC8DC17D8CBAD0087E480 /* DMLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLocalizationManager.h; sourceTree = "<group>"; };
+		94BCC8DD17D8CBAD0087E480 /* DMLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLocalizationManager.m; sourceTree = "<group>"; };
+		94BCC8DE17D8CBAD0087E480 /* Localized_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Localized_en.json; sourceTree = "<group>"; };
+		94BCC8DF17D8CBAD0087E480 /* Localized_it.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Localized_it.json; sourceTree = "<group>"; };
+		94BCC8E317D8CC220087E480 /* Localized_fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Localized_fr.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,11 @@
 			children = (
 				94BCC8C717D8CB1D0087E480 /* DMAppDelegate.h */,
 				94BCC8C817D8CB1D0087E480 /* DMAppDelegate.m */,
+				94BCC8DC17D8CBAD0087E480 /* DMLocalizationManager.h */,
+				94BCC8DD17D8CBAD0087E480 /* DMLocalizationManager.m */,
+				94BCC8DE17D8CBAD0087E480 /* Localized_en.json */,
+				94BCC8DF17D8CBAD0087E480 /* Localized_it.json */,
+				94BCC8E317D8CC220087E480 /* Localized_fr.json */,
 				94BCC8BF17D8CB1D0087E480 /* Supporting Files */,
 			);
 			path = DMLocalizedString;
@@ -155,6 +169,9 @@
 				94BCC8CB17D8CB1D0087E480 /* Default.png in Resources */,
 				94BCC8CD17D8CB1D0087E480 /* Default@2x.png in Resources */,
 				94BCC8CF17D8CB1D0087E480 /* Default-568h@2x.png in Resources */,
+				94BCC8E117D8CBAD0087E480 /* Localized_en.json in Resources */,
+				94BCC8E217D8CBAD0087E480 /* Localized_it.json in Resources */,
+				94BCC8E417D8CC220087E480 /* Localized_fr.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +184,7 @@
 			files = (
 				94BCC8C517D8CB1D0087E480 /* main.m in Sources */,
 				94BCC8C917D8CB1D0087E480 /* DMAppDelegate.m in Sources */,
+				94BCC8E017D8CBAD0087E480 /* DMLocalizationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
