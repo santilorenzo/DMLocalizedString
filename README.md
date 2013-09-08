@@ -16,6 +16,7 @@ Keep in mind that the file should use a well formed JSON syntax; an example is p
     "KEY_N" : "ValueN" *** no final comma here!!! ***
 }
 
+For further explanation please visit: http://lollostips.wordpress.com/2013/09/05/simple-cross-platform-string-localization-for-ios-and-android/
 The MIT License (MIT)
 
 Copyright (c) <2013> <DMDigital s.r.l.>
